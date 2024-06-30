@@ -12,6 +12,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+require("vim-options")
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
@@ -23,7 +24,3 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
-
-
-
-
